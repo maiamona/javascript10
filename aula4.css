@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --fundo: rgb(15, 129, 150);
+    --fundo-preto: rgb(3, 54, 63);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;/*ou outline: none;*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--fundo);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;/*altura da linha*/
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+form input,
+form label,
+form button{
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--fundo);
+}
+
+form button{
+    border: none;
+    background: var(--fundo);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--fundo-preto);
+}
+
+/* aula 2 */
+/* table tr th{
+    padding: 0 83px;
+}
+table tr th:first-child{
+    padding-left: 1px;
+} */
+
+table tr th{
+    padding: 0 83px;
+}
+
+.paragrafo-resultado, .bad{
+    background: rgb(69, 236, 139);
+    padding: 10px 20px;
+}
+
+.bad{
+    background: rgb(233, 51, 6);
+}
+
+strong{
+    text-transform: uppercase;
+}
+
+/* exercicio 11 */
+
+.p{
+    background: #6495ED;  
+  }
+  
+  .div{
+      background: #9FE2BF;
+  }
+  
+  .footer{
+      background: #CCCCFF;
+  }
+  
+  .section{
+      background: #40E0D0;
+  }
+
+  /* aula 6 */
+  .resultado-6{
+    font-size: 60px;
+  }
+
+  .pausado{
+      color: red;
+  }
+
+   /* calculadora */
+
+   .calculadora{
+    width: 400px;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+}
+
+.btn:hover{
+  background: #6b6a6a; 
+  color: #fff;
+}
+
+/* calculadora 2 */
+
+.btn2{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+}
+
+  .btn-eq2{
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius: 4px;
+  }
+
+  .btn-num-m{
+    background: #abacad !important;
+    color: #202124 !important;
+    border: 1px solid #abacad;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .btn-num-n{
+    background: #dddfe0 !important;
+    color: #202124 !important;
+    border: 1px solid #dddfe0;
+    border-radius: 4px;
+  }
+
+  .display2{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    height: 72px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: auto;
+  padding: 10px 14px 0 10px;
+  box-sizing: border-box;
+}
+
+/* Formulário de cadastro */
+
+.error-text{
+    font-size: 17px;
+
+    position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+
+color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+/* json */
+
+table{
+    width: 100%;
+}
